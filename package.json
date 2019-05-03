@@ -1,4 +1,3 @@
-
 {
   "name": "react-native-my-fud-toast",
   "version": "1.0.0",
@@ -14,5 +13,13 @@
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.59.5"
   }
 }
