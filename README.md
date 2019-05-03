@@ -1,5 +1,12 @@
 
-# react-native-my-fud-toast
+# # Native Module 練習
+React Native 0.59.5
+- 使用 react-native-create-library 建立 Native Module
+- 使用 Haul 測試 Native Module
+- Demo https://github.com/FuYaoDe/NativeModuleStudy
+
+參考 https://zhuanlan.zhihu.com/p/64427727
+
 
 ## Getting started
 
@@ -9,37 +16,6 @@
 
 `$ react-native link react-native-my-fud-toast`
 
-### Manual installation
 
-
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-my-fud-toast` and add `RNMyFudToast.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNMyFudToast.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
-#### Android
-
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.fud.nativemodulestudy.RNMyFudToastPackage;` to the imports at the top of the file
-  - Add `new RNMyFudToastPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-my-fud-toast'
-  	project(':react-native-my-fud-toast').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-my-fud-toast/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-my-fud-toast')
-  	```
-
-
-## Usage
-```javascript
-import RNMyFudToast from 'react-native-my-fud-toast';
-
-// TODO: What to do with the module?
-RNMyFudToast;
-```
-  
+## Troubleshoot
+[詳見 Demo 專案 README](https://github.com/FuYaoDe/NativeModuleStudy/blob/master/README.md)
